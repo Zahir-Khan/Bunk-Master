@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                 xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+                 xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup"
+             x:Class="Bunk_Master.PopupViewD">
+    <pages:PopupPage.Animation>
+        <animations:ScaleAnimation 
+      PositionIn="Center"
+      PositionOut="Center"
+      ScaleIn="1.2"
+      ScaleOut="0.8"
+      DurationIn="100"
+      DurationOut="100"
+      EasingIn="SinOut"
+      EasingOut="SinIn"
+      HasBackgroundAnimation="True"/>
+
+    </pages:PopupPage.Animation>
+    <!--<AbsoluteLayout Padding="20">
+        <StackLayout AbsoluteLayout.LayoutBounds=".5,.5,300,275"
+                     AbsoluteLayout.LayoutFlags="PositionProportional"
+                     BackgroundColor="White">
+            <DatePicker x:Name="date"
+                        Date="{Binding date}"/>
+
+
+            <Entry Text="{Binding dt_ab}"
+                   Placeholder="Absent Nos"
+                   Keyboard="Numeric"/>
+
+
+            <Entry Text="{Binding dt_tot}"
+                   Placeholder="Total Nos"
+                   Keyboard="Numeric"/>
+
+
+            <Button Text="ADD"
+                    Command="{Binding AddCommand}"/>
+
+        </StackLayout>
+    </AbsoluteLayout>-->
+</pages:PopupPage>
