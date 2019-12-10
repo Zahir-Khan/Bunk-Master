@@ -1,5 +1,7 @@
-<p> 
+<p> <a href="http://bit.ly/2CePJJK">
   <img src="https://i.imgur.com/OQldEWy.png" alt="LOGO" width="144"/>
+  </a>
+  < Click to see it on the Play Store
 </p>
 
 # Bunk-Master
@@ -17,6 +19,8 @@ In India there exists a student culture of bunking - missing out on classes in o
 - Designed and created logo and UI elements using Adobe Illustrator.
 - Published on the Android Play Store.
 
+### Dev Env
+Visual Studio 2017 - Install Xamarin.
 
 ### File Sturcture - Only files that I have coded are listed
 
@@ -73,3 +77,5 @@ In India there exists a student culture of bunking - missing out on classes in o
         ├── GraphInfo.cs
         └── Scheduler.cs
 
+
+###### For Educational Purposes ONLY - Copyright 2018 
