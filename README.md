@@ -1,11 +1,12 @@
 # Bunk-Master
-This was a passion project of mine which was worked on in 2018 while I was in my Junior Year of my CS degree.   
+This was a passion project of mine which was worked on in 2018 while I was in junior year of my CS degree.   
 Due to the nature of this project being a truly full-stack one, a lot of hard work and dedication was put into it. This is my first large scale coding project. I learned a lot during its development.  
 #### The Why?
 In India there exists a student culture of bunking - missing out on classes in order to take part in extra curricular activities thus educational institutions have come up with minimum attendence to make sure students are not missing out too much. Due to the number of classes taken not being a known total it does get a little tedious to keep track of it. I went further, it doesnt just track but also gives predictions in an intuitive manner.
 
 - App was built using the Xamarin Platform.
 - Codebase follows the MVVM architecture.
+- All data generated is managed using SQLite.
 - Automatically logs the data once class schedule is fed in.
 - UX is desgined with ease in mind and minimum number of taps required to get the job done.
 - UI consists of smooth transitions, custom color coded sections and simple interfaces.
@@ -69,5 +70,5 @@ In India there exists a student culture of bunking - missing out on classes in o
         └── Scheduler.cs
 
 <p> 
-  <img src="https://imgur.com/a/ZCZYIKE" alt="LOGO" width="144"/>
+  <img src="https://imgur.com/OQldEWy" alt="LOGO" width="144"/>
 </p>
