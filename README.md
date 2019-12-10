@@ -1,3 +1,7 @@
+<p> 
+  <img src="https://i.imgur.com/OQldEWy.png" alt="LOGO" width="144"/>
+</p>
+
 # Bunk-Master
 This was a passion project of mine which was worked on in 2018 while I was in junior year of my CS degree.   
 Due to the nature of this project being a truly full-stack one, a lot of hard work and dedication was put into it. This is my first large scale coding project. I learned a lot during its development.  
@@ -17,13 +21,13 @@ In India there exists a student culture of bunking - missing out on classes in o
 ### File Sturcture - Only files that I have coded are listed
 
     .
-    ├── Bunk_Master.Android               # Files Realted to Android
+    ├── Bunk_Master.Android                 # Files Realted to Android
     |   ├── CustomServiceBinder.cs
     |   ├── JobSchedulerHelper.cs
     |   ├── PeriodicService.cs
     |   └── ServiceConnection.cs
-    ├── Bunk_Master.IOS                   # Files Realted to IOS
-    └── Bunk_Master                       # Common bussiness logic for IOS/Android
+    ├── Bunk_Master.IOS                     # Files Realted to IOS
+    └── Bunk_Master                         # Common files for IOS/Android
         ├── Helpers
         |   └── ColorValueConverter.cs
         ├── IConverters
@@ -45,14 +49,14 @@ In India there exists a student culture of bunking - missing out on classes in o
         |   ├── SettingModel.cs
         |   ├── SumModel.cs
         |   └── TelemetModel.cs
-        ├── ViewModels
+        ├── ViewModels                      # Bussness logic - Backend
         |   ├── BaseVM.cs
         |   ├── ClassVM.cs
         |   ├── Database.cs
         |   ├── DatesVM.cs
         |   ├── GraphGen.cs
         |   └── ViewModel.cs
-        ├── Views
+        ├── Views                           # Front facing code
         |   ├── AddFormview.cs
         |   ├── BindableSKCanvasView.cs
         |   ├── ColorView.cs
@@ -69,6 +73,3 @@ In India there exists a student culture of bunking - missing out on classes in o
         ├── GraphInfo.cs
         └── Scheduler.cs
 
-<p> 
-  <img src="https://imgur.com/OQldEWy" alt="LOGO" width="144"/>
-</p>
